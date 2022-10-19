@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet  - print alphabet10 time
+ * print_alphabet_x10 -> print the lowercase
  */
 void print_alphabet_x10(void)
 
