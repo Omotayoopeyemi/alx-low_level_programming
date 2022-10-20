@@ -1,14 +1,13 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
 /**
- * add - get the first value of two digit
- * @n1: The first number
- * @n2: The second number
- * Return:  sum of (n1 and n2)
+ *main - check the code
+ * Return:  alway 0
  */
-int add(int i , int j);
+int main(void)
 {
-return (i + j);
+int n;
+n = add(89, 9);
+printf("%d\n", n);
+return (0);
 }
