@@ -1,13 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *main - check the code
- * Return:  alway 0
+ *add - a function that adds two integers and returns the result
+ * starting from 00:00 to 23:59.
+ * @a: the number
+ * @b: the number
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+int add(int a, int b)
 {
-int n;
-n = add(89, 9);
-printf("%d\n", n);
-return (0);
+return (a + b);
 }
