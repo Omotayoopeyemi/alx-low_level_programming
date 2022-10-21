@@ -13,7 +13,7 @@ ii = 0;
 while (ii < n)
 {
 putchar('#');
-ii++
+ii++;
 }
 putchar('\n');
 i++;
